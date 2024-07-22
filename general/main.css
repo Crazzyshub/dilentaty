@@ -8,7 +8,7 @@ body {
 
 .header_content {
     background-color: black;
-    margin-left: 37%;
+    margin-left: 33%;
     margin-top: 1%;
 }
 
@@ -18,8 +18,8 @@ body {
     font-family: Gilroy;
     font-weight: 500;
     font-size: 30px;
-    margin-left: px;
     transition: 0.2s;
+    margin-left: 0.5%;
 }
 
 .header_content-second {
@@ -33,7 +33,7 @@ body {
 }
 
 .header_content-third {
-    margin-left: 30%;
+    margin-left: 10%;
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: 500;
@@ -63,4 +63,13 @@ body {
 
 .test {
     margin-top: 35%;
+}
+
+@media (max-width: 1000px) {
+    .header_content-second {
+        margin-left: 5%;
+    }
+    .header_content-third {
+        display: none;
+    }
 }
