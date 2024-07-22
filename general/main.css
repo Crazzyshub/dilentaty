@@ -8,7 +8,7 @@ body {
 
 .header_content {
     background-color: black;
-    margin-left: 30%;
+    margin-left: 37%;
     margin-top: 1%;
 }
 
@@ -28,12 +28,12 @@ body {
     font-family: Gilroy;
     font-weight: 500;
     font-size: 30px;
-    margin-left: 160px;
+    margin-left: 10%;
     transition: 0.2s;
 }
 
 .header_content-third {
-    margin-left: 300px;
+    margin-left: 30%;
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: 500;
